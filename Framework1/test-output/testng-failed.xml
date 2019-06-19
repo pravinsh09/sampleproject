@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="baseurl" value="http://automationpractice.com/index.php"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Parameter Test one(failed)" preserve-order="true">
+    <classes>
+      <class name="com.Test_Scripts.Test1">
+        <methods>
+          <include name="testcase1" invocation-numbers="0"/>
+          <include name="contacts"/>
+        </methods>
+      </class> <!-- com.Test_Scripts.Test1 -->
+    </classes>
+  </test> <!-- Parameter Test one(failed) -->
+</suite> <!-- Failed suite [Suite] -->
