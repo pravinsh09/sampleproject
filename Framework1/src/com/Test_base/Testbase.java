@@ -28,7 +28,7 @@ public class Testbase {
 	 		System.out.println("inside setup"+System.getProperty("user.dir")+"//src//com//Test//Config/OR.properties");
 			OR.load(ip);
 	 	}
-	 
+	 	//opening the browser
 	    public void Setup(String browser,String baseurl) {
 	        System.out.println("Test one suite param is: " + baseurl+"--"+browser);
 	        if(browser.equals("Mozilla"))
